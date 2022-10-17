@@ -3,8 +3,8 @@ package futbol;
 import futbol.Futbolista;
 
 public class Jugador extends Futbolista {
-    short  golesMarcados;
-    byte dorsal;
+    public short  golesMarcados;
+    public byte dorsal;
     public Jugador(String nombre, int edad, String posicion, short golesMarcados, byte dorsal){
         super(nombre, edad, posicion);
         this.golesMarcados=golesMarcados;
