@@ -26,7 +26,7 @@ public class TestJugador {
 				&& f.dorsal == 8) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema con el constructor de la clase Jugador");
+		assertTrue(ok, "Hay un problema con el constructor de la clase futbol.Jugador");
     }
 	
 	@Test
@@ -38,7 +38,7 @@ public class TestJugador {
 				&& f.dorsal == 7) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema con el constructor de la clase Jugador");
+		assertTrue(ok, "Hay un problema con el constructor de la clase futbol.Jugador");
     }
 	
 	@Test
@@ -49,7 +49,7 @@ public class TestJugador {
 		if (f1.compareTo(f2) == 9) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema con la implementacion de la interface en la clase Jugador");
+		assertTrue(ok, "Hay un problema con la implementacion de la interface en la clase futbol.Jugador");
     }
 	
 	@Test
@@ -60,7 +60,7 @@ public class TestJugador {
 		if (f.toString().equals(comp)) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema en el metodo toString de la clase Jugador");
+		assertTrue(ok, "Hay un problema en el metodo toString de la clase futbol.Jugador");
     }
 	
 	@Test
@@ -71,6 +71,6 @@ public class TestJugador {
 		if (!f.jugarConLasManos()) {
 			ok = true;
 		}
-		assertTrue(ok, "Hay un problema en el metodo jugarConLasManos de la clase Jugador");
+		assertTrue(ok, "Hay un problema en el metodo jugarConLasManos de la clase futbol.Jugador");
     }
 }
