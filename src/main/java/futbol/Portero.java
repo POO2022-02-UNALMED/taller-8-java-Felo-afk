@@ -10,10 +10,9 @@ public class Portero extends Futbolista{
         this.golesRecibidos = golesRecibidos;
         this.dorsal = dorsal;
     }
-    public String toString(){
-        return "El futbolista " + this.nombre + " tiene " + this.edad + ", y" +
-                " juega de" + this.posicion+ " con el dorsal "+this.dorsal+ ". Le han marcado "+ this.golesRecibidos;
-
+    @Override
+    public String toString() {
+        return super.toString() + " con el dorsal " + getDorsal() + ". Le han marcado " + getGolesRecibidos();
     }
 
     public int compareTo(Object o){
